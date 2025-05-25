@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C3CA92;
+    color: #20331B;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #A4B17B;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #20331B;
+  }
+  
+  .password-box {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 0.5rem;
+  }
+  
+  #password {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #859864;
+    border-radius: 10px;
+    background-color: #E8EBD1;
+    color: #354C2B;
+  }
+  
+  .password-box button {
+    padding: 0.5rem;
+    background-color: #697E50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .password-box button:hover {
+    background-color: #4E653D;
+  }
+  
+  .config-box {
+    margin-top: 1.5rem;
+    background-color: #859864;
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  
+  .config-box h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  label {
+    display: block;
+    margin-top: 0.5rem;
+    color: #20331B;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  #length-value {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  
+  .checkboxes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
